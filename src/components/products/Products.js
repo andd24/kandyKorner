@@ -19,6 +19,7 @@ export const ProductList = () => {
         const newPurchase = {
             productId: parseInt(event.target.value),
             customerId: parseInt(localStorage.getItem("kandy_customer")),
+            amount: 1
         }
     
         const fetchOption = {
